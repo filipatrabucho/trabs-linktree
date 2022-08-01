@@ -1,0 +1,133 @@
+body {
+  text-align: center;
+  margin: 0;
+  font-family: "Open Sans Light", sans-serif;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  color: #706e6e;
+}
+.profile {
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+}
+h1 {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+  text-overflow: ellipsis;
+  margin-bottom: 0;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #706e6e;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 14px;
+  font-weight: 500;
+}
+h3 {
+  color: #333;
+  margin-top: 60px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+.links {
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.list {
+  font-family: inherit;
+  font-weight: inherit;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+  border: #202225 solid;
+  max-width: 600px;
+  background-color: #202225;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 15px;
+  transition: color 1s;
+}
+.list:hover {
+  color: black;
+  background-color: white;
+}
+
+/*social media links*/
+.fa {
+  padding: 20px;
+  padding-right: 15px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  color: #333;
+}
+
+.fa-instagram,
+.fa-envelope {
+  color: #333;
+}
+.about {
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .profile {
+    margin-top: 80px;
+    width: 180px;
+    height: 180px;
+  }
+  h1 {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bold;
+  }
+  h2,
+  h3 {
+    font-size: 30px;
+    margin-bottom: 60px;
+  }
+  .list {
+    padding: 40px 30px;
+    margin-bottom: 54px;
+    max-width: 800px;
+    font-size: 33px;
+  }
+  .links {
+    margin-bottom: 10%;
+  }
+
+  .fa {
+    font-size: 80px !important;
+    width: 80px !important;
+  }
+  .about {
+    font-size: 30px;
+    margin-top: 15%;
+  }
+}
